@@ -14,3 +14,5 @@ update-alternatives --config java
 sudo systemctl enable jenkins
 systemctl start jenkins.service
 systemctl status jenkins.service
+
+
