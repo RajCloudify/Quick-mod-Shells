@@ -4,7 +4,7 @@ tar -xf prometheus-2.43.0.linux-amd64.tar.gz
 sudo mv prometheus-2.43.0.linux-amd64/prometheus prometheus-2.43.0.linux-amd64/promtool /usr/local/bin
 
 Now, We need to Create directories for configuration files and other prometheus data.
-sudo mkdir /etc/prometheus /var/lib/prometheus
+sudo mkdir /etc/prometheus /var/lib/prometheus 
 sudo mv prometheus-2.43.0.linux-amd64/console_libraries /etc/prometheus
 ls /etc/prometheus
 sudo rm -rvf prometheus-2.43.0.linux-amd64*
