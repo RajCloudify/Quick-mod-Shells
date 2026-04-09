@@ -1,3 +1,4 @@
+######### Active JENKINS Script ######### 
 ######## JENKINS DOWNLOAD METHOD-2 ############
 #------------jenkins install-------------
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
